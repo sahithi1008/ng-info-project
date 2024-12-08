@@ -1,0 +1,341 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Settings Page
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100">
+    <!-- Sidebar -->
+    <div class="flex">
+        <div class="w-1/5 bg-gray-900 text-white h-screen p-4">
+            <div class="text-center mb-8">
+                <img alt="Logo" class="mx-auto" height="50" src="limetray.jpg" width="100" />
+            </div>
+            <nav>
+                <ul>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-home mr-2">
+                            </i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-bullhorn mr-2">
+                            </i>
+                            Website Builder
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-shopping-cart mr-2">
+                            </i>
+                            Online Order
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-list mr-2">
+                            </i>
+                            List
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-chart-line mr-2">
+                            </i>
+                            Reports
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-cogs mr-2">
+                            </i>
+                            Settings
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a class="flex items-center" href="#">
+                            <i class="fas fa-sign-out-alt mr-2">
+                            </i>
+                            Logout
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Main Content -->
+        <div class="w-4/5 p-8">
+            <div class="flex justify-between items-center mb-4">
+                <div>
+                    <h1 class="text-2xl font-bold">
+                        Settings
+                    </h1>
+                </div>
+                <div>
+                    <button class="bg-orange-500 text-white px-4 py-2 rounded">
+                        Installation Status
+                    </button>
+                    <button class="bg-green-500 text-white px-4 py-2 rounded ml-2">
+                        Back
+                    </button>
+                </div>
+            </div>
+            <div class="bg-white p-6 rounded shadow">
+                <img alt="general settings" height="50" src="settings.jpg" width="50" />
+                <h2 class="text-xl font-bold mb-4">
+                    General Settings
+                </h2>
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold mb-2">
+                        Request Services
+                    </h3>
+                    <div class="flex space-x-4">
+                        <img alt="Service 1" height="50" src="shadowfax.jpg" width="100" />
+                        <img alt="Service 2" height="50" src="Grab.jpg" width="100" />
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold mb-2">
+                        Active/Inactive Services
+                    </h3>
+                    <div class="flex space-x-4">
+                        <div class="flex items-center">
+                            <span class="mr-2">
+                                Delhivery
+                            </span>
+                            <input class="toggle-checkbox" type="checkbox" />
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-2">
+                                Grab
+                            </span>
+                            <input class="toggle-checkbox" type="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-4">
+                    <h3 class="text-lg font-semibold mb-2">
+                        Priority Settings
+                    </h3>
+                    <h4>Drag the service againts the priority you want to assign it</h4>
+                    <div class="flex space-x-4">
+                        <div class="flex items-center">
+                            <span class="mr-2">
+                                1
+                            </span>
+                            <img alt="Priority 1" height="50" src="Grab1.jpg" width="50" />
+                        </div>
+                        <div class="flex items-center">
+                            <span class="mr-2">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="mr-2">
+                            2
+                        </span>
+                        <img alt="Priority 2" height="50" src="delhivery.jpg" width="50" />
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold mb-2">
+                    Time Settings
+                </h3>
+                <h4>Delhivery</h4>
+                <table class="w-full border-collapse border border-gray-300">
+                    <thead>
+                        <tr>
+                            <th class="border border-gray-300 p-2">
+                                Active Hours
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Mon
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Tue
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Wed
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Thu
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Fri
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Sat
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Sun
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                Start Time
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                09:30
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                End Time
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                24:00
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="w-full border-collapse border border-gray-300">
+                    <thead>
+                        <tr>
+                            <th class="border border-gray-300 p-2">
+                                In Active Hours
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Mon
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Tue
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Wed
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Thu
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Fri
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Sat
+                            </th>
+                            <th class="border border-gray-300 p-2">
+                                Sun
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                Start time
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                12:00
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="border border-gray-300 p-2">
+                                End Time
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                            <td class="border border-gray-300 p-2">
+                                15:00
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="flex justify-end mt-4">
+                <button class="bg-gray-300 text-black px-4 py-2 rounded mr-2">
+                    Cancel
+                </button>
+                <button class="bg-green-500 text-white px-4 py-2 rounded">
+                    Save Changes
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
